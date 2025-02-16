@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="/bootstrap.min.css">
+    <!-- icon  -->
+    <link rel="stylesheet" href="/all.min.css">
+    <!-- font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- slider  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <style>
+        img{
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .all_chars img{
+            height: 250px;
+            width: 100%;
+        }
+        .swiper-slide{
+            position: relative;
+        }
+        .swiper-slide span{
+            position: absolute;
+            left: 0;
+            top: 214px;
+            width: 100%;
+            font-size: 20px;
+            padding: 3px;
+            border-radius: 0 0 10px 10px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            background-color: rgba(155, 0, 0, 0.692);
+        }
+        ul li form input[type="submit"]{
+            background-color: transparent;
+            color: #fff;
+            border: none;
+            padding: 8px 0;
+            border-radius: 10px;
+            transition: all 0.3s;
+        }
+        ul li form input[type="submit"]:hover{
+            background-color: #fff;
+            color: #f00;
+            padding: 8px 20px;
+        }
+    </style>
+</head>
+
+<body
+    style="background: url('http://ott.aipdfquery.com/assets/img/dark-gradient-bg.jpg') no-repeat center;background-size: cover;background-blend-mode: darken;background-color: #9e0000;color: #fff;">
+    <%- include('navbar') %>
+
+        <section class="py-5 fs-4">
+            <div class="container-fluid px-5 mx-5 d-flex">
+                <div class="col-4 text-center">
+                    <% if(movies){ %>
+                        <img src="<%= single.thumbnail %>" alt="<%= single.thumbnail %>" width="80%">
+                    <% }else{ %>
+                        <img src="<%= single.thumbnail %>" alt="<%= single.thumbnail %>" width="100%">
+                    <% } %>
+                    <div class="all_chars mt-3" style="width: 100%;">
+                        <div class="swiper" style="width: 100%;">
+                            <div class="swiper-wrapper" style="width: 100%;">
+                                <% single.director.map((director)=> { %>
+                                    <div class="swiper-slide" style="width: 33.33%;">
+                                        <img src="<%= director.image %>" alt="<%= director.image %>">
+                                        <p><%= director.name %></p>
+                                        <span>director</span>
+                                    </div>
+                                <% }) %>
+                                <% single.actor.map((actor)=> { %>
+                                    <div class="swiper-slide">
+                                        <img src="<%= actor.image %>" alt="<%= actor.image %>">
+                                        <p><%= actor.name %></p>
+                                    </div>
+                                <% }) %>
+                                <% single.actress.map((actress)=> { %>
+                                    <div class="swiper-slide">
+                                        <img src="<%= actress.image %>" alt="<%= actress.image %>">
+                                        <p><%= actress.name %></p>
+                                    </div>
+                                <% }) %>
+                                <% single.other_characters.map((other_characters)=> { %>
+                                    <div class="swiper-slide">
+                                        <img src="<%= other_characters.image %>" alt="other_characters.image %>">
+                                        <p><%= other_characters.name %></p>
+                                    </div>
+                                <% }) %>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 p-5 ps-4">
+                    <h1 class="d-flex justify-content-between mb-4" style="font-size: 55px;"><span>
+                            <%= single.name %>
+                        </span><span>
+                            <%= single.movie_language %>
+                        </span></h1>
+                    <p class="mb-2">
+                        <%= single.genre.join(' / ') %>
+                    </p>
+                    <p class="mb-4 pb-1"><span class="fs-3 fw-semibold">Writer :</span>
+                        <%= single.writers.join(' / ') %>
+                    </p>
+                    <p class="mb-4">
+                        <%= single.description %>
+                    </p>
+                    <ul class="list-unstyled d-flex align-items-center">
+                        <li class="col-4">
+                            <form action="/bookfromgetinfo" method="post">
+                                <input type="hidden" name="ticketId" value="<%= single._id %>">
+                                <input type="hidden" name="sliderData" value="<%= slider %>">
+                                <input type="hidden" name="moviesData" value="<%= movies %>">
+                                <p class="fs-3 mb-2"><span class="fs-2 fw-semibold">Price : </span> ₹ <%= single.ticket_price %></p>
+                                <input type="submit" value="Book Ticket">
+                            </form>
+                        </li>
+                        <li class="col-8 text-end">
+                            <p class="fs-1 text-uppercase mb-2" style="letter-spacing: 1px;">
+                                <%= single.country_name %>
+                            </p>
+                            <p class="fs-3"><span class="fs-2 fw-semibold">Released on : </span>
+                                <%= single.release.date %><sup>th</sup>
+                                    <%= single.release.month %>
+                                        <%= single.release.year %>
+                            </p>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </section>
+
+        <script src="/bootstrap.bundle.min.js"></script>
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                loop: true,
+                centeredSlides: false,
+                slidesPerView: 3,
+                spaceBetween: 15,
+                autoplay:{
+                    delay: 1500
+                }
+            });
+        </script>
+</body>
+
+</html>

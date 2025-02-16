@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="/bootstrap.min.css">
+    <!-- icon  -->
+    <link rel="stylesheet" href="/all.min.css">
+    <!-- slider  -->
+    <link rel="stylesheet" href="/slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+    <!-- font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="/style.css">
+
+    <style>
+        .img-box::after{
+            position: absolute;
+            content: '';
+            width: 0;
+            height: 0;
+            right: 1.5rem;
+            bottom: 1.5rem;
+            background: radial-gradient(circle, rgba(255, 0, 0, 0) 15%, #F00 100%);
+            opacity: 0;
+            visibility: hidden;
+            z-index: 1;
+            transition: all 0.5s;
+        }
+        .img-box:hover::after{
+            height: 200%;
+            width: 200%;
+            opacity: 1;
+            visibility: visible;
+        }
+        .img-box-content{
+            bottom: 0;
+            right: -100%;
+            width: 100%;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 2;
+            transition: all 0.5s;
+        }
+        .img-box:hover .img-box-content{
+            right: 0;
+            opacity: 1;
+            visibility: visible;
+        }
+        .img-box:hover img{
+            width: 60%;
+        }
+        .img-box a{
+            right: -100%;
+            top: 0;
+            height: calc(100% - 1.5rem);
+            z-index: 2;
+            line-height: 2.9;
+            transition: all 0.5s;
+        }
+        .img-box:hover a{
+            right: 1.5rem;
+        }
+        .img-box a span{
+            display: block;
+            text-align: center;
+        }
+        .img-box a:hover{
+            background-color: #000;
+            color: #F00 !important;
+        }
+    </style>
+</head>
+
+<body style="background: url('http://ott.aipdfquery.com/assets/img/dark-gradient-bg.jpg') no-repeat center;background-size: cover;background-blend-mode: darken;background-color: #5f0000;color: #fff;">
+    <%- include('navbar') %>
+    <div class="container-fluid px-0 py-5">
+        <section class="hero-slider hero-style">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <% slider.map((data) => { %>
+                        <div class="swiper-slide position-relative">
+                            <div class="slide-inner slide-bg-image"
+                                data-background="<%= data.thumbnail %>">
+                                <div class="slider-content">
+                                    <div data-swiper-parallax="300" class="slide-title">
+                                        <h2><%= data.name %></h2>
+                                    </div>
+                                    <div data-swiper-parallax="400" class="slide-text">
+                                        <p>
+                                            <%= data.genre.join(' / ') %>
+                                        </p>
+                                    </div>
+                                    <div data-swiper-parallax="400" class="slide-text">
+                                        <p><%= data.description %></p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div data-swiper-parallax="500" class="slide-btns">
+                                        <a href="/getinfo?sliderId=<%= data._id %>" class="theme-btn-s2 fs-5"><i class="fas fa-chevron-circle-right"></i> Get Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <% }) %>
+                </div>
+                <!-- end swiper-wrapper -->
+        
+                <!-- swipper controls -->
+                <div class="swiper-pagination"></div>
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+            </div>
+        </section>
+    </div>
+    <section>
+        <div class="container-fluid p-5 d-flex" style="flex-wrap: wrap;">
+            <% movies.map((data)=>{ %>
+                <% const {writers,thumbnail}=data;%>
+                    <div class="img-box col-3 p-4 d-flex position-relative overflow-hidden">
+                        <img src="<%= thumbnail %>" alt="<%= thumbnail %>" height="300" width="100%" style="object-fit: cover;transition: all 0.5s;">
+                        <div class="img-box-content position-absolute text-end p-4 pe-5 me-2">
+                            <h2 class="fs-1"><%= data.name %></h2>
+                            <p class="fs-4"><%= data.genre.join(' / ') %></p>
+                            <p class="fs-5" style="letter-spacing: 2px;">Release : <%= data.release.date %> <%= data.release.month %> <%= data.release.year %></p>
+                        </div>
+                        <a href="/getinfo?moviesId=<%= data._id %>" class="position-absolute text-uppercase text-light px-2">
+                            <span>G</span>
+                            <span>e</span>
+                            <span>t</span>
+                            <span>I</span>
+                            <span>n</span>
+                            <span>f</span>
+                            <span>o</span>
+                        </a>
+                    </div>
+                <% }) %>
+        </div>
+    </section>
+
+    <script src="/bootstrap.bundle.min.js"></script>
+
+    <!-- slider  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+
+        // HERO SLIDER
+        var menu = [];
+        jQuery('.swiper-slide').each(function (index) {
+            menu.push(jQuery(this).find('.slide-inner').attr("data-text"));
+        });
+        var interleaveOffset = 0.5;
+        var swiperOptions = {
+            loop: true,
+            speed: 800,
+            parallax: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            watchSlidesProgress: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            on: {
+                progress: function () {
+                    var swiper = this;
+                    for (var i = 0; i < swiper.slides.length; i++) {
+                        var slideProgress = swiper.slides[i].progress;
+                        var innerOffset = swiper.width * interleaveOffset;
+                        var innerTranslate = slideProgress * innerOffset;
+                        swiper.slides[i].querySelector(".slide-inner").style.transform =
+                            "translate3d(" + innerTranslate + "px, 0, 0)";
+                    }
+                },
+
+                touchStart: function () {
+                    var swiper = this;
+                    for (var i = 0; i < swiper.slides.length; i++) {
+                        swiper.slides[i].style.transition = "";
+                    }
+                },
+
+                setTransition: function (speed) {
+                    var swiper = this;
+                    for (var i = 0; i < swiper.slides.length; i++) {
+                        swiper.slides[i].style.transition = speed + "ms";
+                        swiper.slides[i].querySelector(".slide-inner").style.transition =
+                            speed + "ms";
+                    }
+                }
+            }
+        };
+
+        var swiper = new Swiper(".swiper-container", swiperOptions);
+
+        // DATA BACKGROUND IMAGE
+        var sliderBgSetting = $(".slide-bg-image");
+        sliderBgSetting.each(function (indx) {
+            if ($(this).attr("data-background")) {
+                $(this).css("background-image", "url(" + $(this).data("background") + ")");
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>

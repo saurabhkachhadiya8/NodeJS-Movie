@@ -1,0 +1,1407 @@
+{
+    "movies": [
+        {
+            "_id": 1,
+            "name": "Rocky Aur Rani Kii Prem Kahaani",
+            "country_name": "India",
+            "genre": [
+                "Romance",
+                "Drama",
+                "Comedy",
+                "Family"
+            ],
+            "writers": [
+                "Ishita Moitra",
+                "Shashank Khaitan",
+                "Sumit Roy"
+            ],
+            "release": {
+                "date": 28,
+                "month": "July",
+                "year": 2023
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BNjViNWNiNDUtMTk2NC00NGExLTkyMjctNDhhMjY3MTA5N2U5XkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "Flamboyant Punjabi Rocky and intellectual Bengali journalist Rani fall in love despite their differences. After facing family opposition, they decide to live with each other's families for three months before getting married.",
+            "movie_language": "Hindi",
+            "director": [
+                {
+                    "name": "Karan Johar",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Padma_Shri_Karan_Johar_%28cropped%29.jpg/312px-Padma_Shri_Karan_Johar_%28cropped%29.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Ranveer Singh",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Ranveer_Singh_in_2023_%281%29_%28cropped%29.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Alia Bhatt",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Alia_Bhatt_at_Berlinale_2022_Ausschnitt.jpg/332px-Alia_Bhatt_at_Berlinale_2022_Ausschnitt.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Dharmendra",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Dharam.jpg/358px-Dharam.jpg"
+                },
+                {
+                    "name": "Jaya Bachchan",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Jaya_Bachchan_at_Neil_Nitin_Mukesh%27s_wedding_reception_enhanced.jpg/333px-Jaya_Bachchan_at_Neil_Nitin_Mukesh%27s_wedding_reception_enhanced.jpg"
+                },
+                {
+                    "name": "Shabana Azmi",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Shabana_Azmi_SFU_honorary_degree_%28cropped%29.jpg/360px-Shabana_Azmi_SFU_honorary_degree_%28cropped%29.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 2,
+            "name": "Jawan",
+            "country_name": "India",
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "writers": [
+                "Atlee Kumar",
+                "S. Ramana Girivasan",
+                "Sumit Arora"
+            ],
+            "release": {
+                "date": 7,
+                "month": "September",
+                "year": 2023
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMGExNGI1NDktOWI2Mi00NDM3LWIxMmQtNTQxYTgzMzI0MTA1XkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "A prison warden recruits inmates to commit outrageous crimes that shed light on corruption and injustice - and that lead him to an unexpected reunion.",
+            "movie_language": "Hindi",
+            "director": [
+                {
+                    "name": "Atlee Kumar",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Atleeawrd.jpg/480px-Atleeawrd.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Shah Rukh Khan",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg/334px-Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Nayanthara",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/8/80/Nayanthara_at_Filmfare_Awards.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Vijay Sethupathi",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Vijay_Sethupathi_at_the_premiere_of_Merry_Christmas_%28cropped%29.jpg"
+                },
+                {
+                    "name": "Deepika Padukone",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Deepika_Padukone_Cannes_2018_%28cropped%29.jpg/359px-Deepika_Padukone_Cannes_2018_%28cropped%29.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 3,
+            "name": "Pathaan",
+            "country_name": "India",
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "writers": [
+                "Siddharth Anand",
+                "Shridhar Raghavan",
+                "Abbas Tyrewala"
+            ],
+            "release": {
+                "date": 25,
+                "month": "January",
+                "year": 2023
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BNDdkNTY1MDQtY2I5MC00OTFlLTg5OWQtZWE2YzE5NWFiMDgzXkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "An Indian agent races against a doomsday clock as a ruthless mercenary, with a bitter vendetta, mounts an apocalyptic attack against the country.",
+            "movie_language": "Hindi",
+            "director": [
+                {
+                    "name": "Siddharth Anand",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sid_Anand_on_set.jpg/320px-Sid_Anand_on_set.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Shah Rukh Khan",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg/334px-Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Deepika Padukone",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Deepika_Padukone_Cannes_2018_%28cropped%29.jpg/359px-Deepika_Padukone_Cannes_2018_%28cropped%29.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "John Abraham",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/JohnAbraham.jpg"
+                },
+                {
+                    "name": "Dimple Kapadia",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/DimpleKapadiaPichvai_%28cropped%29.png"
+                },
+                {
+                    "name": "Ashutosh Rana",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ashutosh_Rana_2.jpg/480px-Ashutosh_Rana_2.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 4,
+            "name": "12th Fail",
+            "country_name": "India",
+            "genre": [
+                "Drama"
+            ],
+            "writers": [
+                "Vidhu Vinod Chopra",
+                "Jaskunwar Kohli"
+            ],
+            "release": {
+                "date": 27,
+                "month": "October",
+                "year": 2023
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BNTE3OTIxZDYtNjA0NC00N2YxLTg1NGQtOTYxNmZkMDkwOWNjXkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "The real-life story of IPS Officer Manoj Kumar Sharma and IRS Officer Shraddha Joshi.",
+            "movie_language": "Hindi",
+            "director": [
+                {
+                    "name": "Vidhu Vinod Chopra",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Vidhu_Vinod_Chopra_2023_%28cropped%29.jpg/457px-Vidhu_Vinod_Chopra_2023_%28cropped%29.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Vikrant Massey",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Vikrant_Massey_in_the_closing_ceremony_of_IFFI_2024.jpg/384px-Vikrant_Massey_in_the_closing_ceremony_of_IFFI_2024.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Medha Shankr",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Medha_Shankr_spotted_in_Khar_%28cropped%29.jpg/394px-Medha_Shankr_spotted_in_Khar_%28cropped%29.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Anant V Joshi",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqn10hDTAqF8h5Cm9_Z716ViBvTspD9uDsJg44j5AuHBY8FUwGB-0OQDXcAKI08cJnjU&usqp=CAU"
+                },
+                {
+                    "name": "Anshumaan Pushkar",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqn10hDTAqF8h5Cm9_Z716ViBvTspD9uDsJg44j5AuHBY8FUwGB-0OQDXcAKI08cJnjU&usqp=CAU"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 5,
+            "name": "Hanu Man",
+            "country_name": "India",
+            "genre": [
+                "Action",
+                "Adventure",
+                "Fantasy"
+            ],
+            "writers": [
+                "Prasanth Varma"
+            ],
+            "release": {
+                "date": 12,
+                "month": "January",
+                "year": 2024
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BYmI0MDdhYzYtZDg3Mi00ODI2LTk0OTgtZDg4ZDUzNWZjYjMzXkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "An imaginary place called Anjanadri where the protagonist gets the powers of Hanuman and fights for Anjanadri.",
+            "movie_language": "Telugu",
+            "director": [
+                {
+                    "name": "Prasanth Varma",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqn10hDTAqF8h5Cm9_Z716ViBvTspD9uDsJg44j5AuHBY8FUwGB-0OQDXcAKI08cJnjU&usqp=CAU"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Teja Sajja",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Teja_Sajja_snapped_at_the_trailer_launch_of_Hanuman.jpg/405px-Teja_Sajja_snapped_at_the_trailer_launch_of_Hanuman.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Amritha Aiyer",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Amritha_Aiyer_at_HanuMan_gratitude_meet_%281%29.jpg/320px-Amritha_Aiyer_at_HanuMan_gratitude_meet_%281%29.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Varalaxmi Sarathkumar",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Madhu_Shalini%2C_Sonia_Agarwal_and_Varalakshmi_Sarathkumar_at_CCL3_%28cropped%29_2.jpg"
+                },
+                {
+                    "name": "Samuthirakani",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Samuthirakani_at_Sandamarudham_Audio_Launch.jpg/320px-Samuthirakani_at_Sandamarudham_Audio_Launch.jpg"
+                },
+                {
+                    "name": "Vinay Rai",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqn10hDTAqF8h5Cm9_Z716ViBvTspD9uDsJg44j5AuHBY8FUwGB-0OQDXcAKI08cJnjU&usqp=CAU"
+                },
+                {
+                    "name": "Vennela Kishore",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Vennela_Kishore.jpg/335px-Vennela_Kishore.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 6,
+            "name": "Satyaprem Ki Katha",
+            "country_name": "India",
+            "genre": [
+                "Romance",
+                "Drama"
+            ],
+            "writers": [
+                "Karan Shrikant Sharma"
+            ],
+            "release": {
+                "date": 29,
+                "month": "June",
+                "year": 2023
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTVmZDNjMGEtNzc5MC00ODY4LWI1ZTYtMjM2ODhhNGExNzgxXkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "A middle-class boy in Ahmedabad, Satyaprem falling in one-sided love with Katha, who is coping with her breakup with Tapan. Through the journey, they discover each other's life and complement in accomplishing what was left halfway.",
+            "movie_language": "Hindi",
+            "director": [
+                {
+                    "name": "Sameer Vidwans",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqn10hDTAqF8h5Cm9_Z716ViBvTspD9uDsJg44j5AuHBY8FUwGB-0OQDXcAKI08cJnjU&usqp=CAU"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Kartik Aaryan",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Kartik_Aaryan_promoting_Bhool_Bhualiyaa_3.jpg/358px-Kartik_Aaryan_promoting_Bhool_Bhualiyaa_3.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Kiara Advani",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Kiara_Advani_snapped_at_the_screening_of_Shershaah_%28cropped%29.jpg/384px-Kiara_Advani_snapped_at_the_screening_of_Shershaah_%28cropped%29.jpg"
+                }
+            ],
+            "other_characters": [],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 7,
+            "name": "Tiger 3",
+            "country_name": "India",
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "writers": [
+                "Shridhar Raghavan",
+                "Anckur Chaudhry",
+                "Aditya Chopra"
+            ],
+            "release": {
+                "date": 12,
+                "month": "November",
+                "year": 2023
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMGQ1MzkzZDYtMzg1YS00ODE0LTgyYTYtNDdkOWNjMDFhMmZjXkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "Tiger and Zoya are back - to save the country and their family. This time it's personal.",
+            "movie_language": "Hindi",
+            "director": [
+                {
+                    "name": "Maneesh Sharma",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqn10hDTAqF8h5Cm9_Z716ViBvTspD9uDsJg44j5AuHBY8FUwGB-0OQDXcAKI08cJnjU&usqp=CAU"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Salman Khan",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Salman_Khan_in_2023_%281%29_%28cropped%29.jpg/480px-Salman_Khan_in_2023_%281%29_%28cropped%29.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Katrina Kaif",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Katrina_Kaif_promoting_Bharat_in_2019.jpg/340px-Katrina_Kaif_promoting_Bharat_in_2019.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Emraan Hashmi",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Emraan_Hashmi_at_RAAZ_3_DVD_launch.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 8,
+            "name": "Dunki",
+            "country_name": "India",
+            "genre": [
+                "Drama",
+                "Comedy"
+            ],
+            "writers": [
+                "Rajkumar Hirani",
+                "Abhijat Joshi",
+                "Kanika Dhillon"
+            ],
+            "release": {
+                "date": 21,
+                "month": "December",
+                "year": 2023
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMThhZjM4M2UtYmE1NC00YTMzLTk3ZTAtNmQ1ZmI4YmRmZGE1XkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "When his friends in Punjab struggle to clear the immigration process, an ex-soldier guides them on a risky journey to enter the UK without permission.",
+            "movie_language": "Hindi",
+            "director": [
+                {
+                    "name": "Rajkumar Hirani",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Rajkumar_Hirani_2014.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Shah Rukh Khan",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg/334px-Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Taapsee Pannu",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Taapsee_Pannu_in_March_2022.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Boman Irani",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/IIFA_2017_Green_Carpet_%2836349841166%29_%28cropped%29.jpg/359px-IIFA_2017_Green_Carpet_%2836349841166%29_%28cropped%29.jpg"
+                },
+                {
+                    "name": "Anil Grover",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqn10hDTAqF8h5Cm9_Z716ViBvTspD9uDsJg44j5AuHBY8FUwGB-0OQDXcAKI08cJnjU&usqp=CAU"
+                },
+                {
+                    "name": "Vikram Kochhar",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqn10hDTAqF8h5Cm9_Z716ViBvTspD9uDsJg44j5AuHBY8FUwGB-0OQDXcAKI08cJnjU&usqp=CAU"
+                },
+                {
+                    "name": "Vicky Kaushal",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Vicky_Kaushal_snapped_promoting_Zara_Hatke_Zara_Bach_Ke_on_the_sets_of_The_Kapil_Sharma_Show_%28cropped%29.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 9,
+            "name": "Devara Part 1",
+            "country_name": "India",
+            "genre": [
+                "Action",
+                "Drama",
+                "Thriller"
+            ],
+            "writers": [
+                "Koratala Siva"
+            ],
+            "release": {
+                "date": 26,
+                "month": "September",
+                "year": 2024
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMzUwZTM1ZDEtZGViOC00YmUxLWEwNWQtNGIyMzE2NWZkYzUyXkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "A mighty sea warrior takes a violent stand against the criminal deeds of his village. Years later, his mild-mannered son walks a path of his own.",
+            "movie_language": "Hindi",
+            "director": [
+                {
+                    "name": "Koratala Siva",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Koratala_Siva_%28cropped%29.jpg/359px-Koratala_Siva_%28cropped%29.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "N.T. Rama Rao Jr.",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Jr-NTRspotted-promoting-RRR-on-sets-of-The-Kapil-Sharma-Show_%28cropped%29.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Janhvi Kapoor",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Janhvi_Kapoor_snapped_at_the_press_show_of_Bawaal.jpg/354px-Janhvi_Kapoor_snapped_at_the_press_show_of_Bawaal.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Saif Ali Khan",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Saif_Ali_Khan_At_The_5th_Anniversary_Celebration_Of_Chevrolet.jpg/480px-Saif_Ali_Khan_At_The_5th_Anniversary_Celebration_Of_Chevrolet.jpg"
+                },
+                {
+                    "name": "Prakash Raj",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Prakash_Raj_at_KLF_18_kozhikode.jpg/480px-Prakash_Raj_at_KLF_18_kozhikode.jpg"
+                },
+                {
+                    "name": "Srikanth",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqn10hDTAqF8h5Cm9_Z716ViBvTspD9uDsJg44j5AuHBY8FUwGB-0OQDXcAKI08cJnjU&usqp=CAU"
+                },
+                {
+                    "name": "Shine Tom Chacko",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Shine_Tom_Chacko_2019.jpg/373px-Shine_Tom_Chacko_2019.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 10,
+            "name": "Bade Miyan Chote Miyan",
+            "country_name": "India",
+            "genre": [
+                "Action",
+                "Adventure",
+                "Sci-Fi"
+            ],
+            "writers": [
+                "Aditya Basu",
+                "Vashu Bhagnani",
+                "Suraj Gianani"
+            ],
+            "release": {
+                "date": 11,
+                "month": "April",
+                "year": 2024
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMDE4Yzc3YTctODE5My00Mjg3LWI0ZDktZjM4MmVkMTQ3ZmNmXkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "Two elite soldiers with troubled pasts are enlisted for a daring mission when a deadly masked villain threatens India's defenses.",
+            "movie_language": "Hindi",
+            "director": [
+                {
+                    "name": "Ali Abbas Zafar",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ali_Abbas_Zafar.jpg/359px-Ali_Abbas_Zafar.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Akshay Kumar",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Akshay_Kumar.jpg"
+                },
+                {
+                    "name": "Tiger Shroff",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Tiger_Shroff_in_2019.jpg/340px-Tiger_Shroff_in_2019.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Sonakshi Sinha",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Sonakshi_Sinha_snapped_at_Krome_Studio_in_Bandra_%285%29.jpg/349px-Sonakshi_Sinha_snapped_at_Krome_Studio_in_Bandra_%285%29.jpg"
+                },
+                {
+                    "name": "Alaya F",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/7/71/Alaya_F_and_others_at_Parcos_Beauty_Influencer_Awards_%28cropped%29.jpg"
+                },
+                {
+                    "name": "Manushi Chhillar",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Manushi_Chhillar_attends_a_press_meet_for_the_Gem_and_Jewellery_Export_Promotion_Council_of_India_%28GJEPC%29_in_2023_%28cropped%29.jpg/427px-Manushi_Chhillar_attends_a_press_meet_for_the_Gem_and_Jewellery_Export_Promotion_Council_of_India_%28GJEPC%29_in_2023_%28cropped%29.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Ronit Roy",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Ronit_Roy_at_Sahara_IPL_Awards_%28cropped%29.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 11,
+            "name": "Kisi Ka Bhai Kisi Ki Jaan",
+            "country_name": "India",
+            "genre": [
+                "Action",
+                "Comedy",
+                "Drama"
+            ],
+            "writers": [
+                "Tasha Bhambra",
+                "Sparsh Khetarpal",
+                "Sajid Nadiadwala"
+            ],
+            "release": {
+                "date": 21,
+                "month": "April",
+                "year": 2023
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BZDZlZDIxM2EtMDk1Ni00MTM3LTg2YjYtNzYxMTM3ZTU0NzU0XkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "The eldest brother refuses to marry since he believes it may create disharmony in his big family. His brothers, who've already found partners, come together to find a match for him.",
+            "movie_language": "Hindi",
+            "director": [
+                {
+                    "name": "Farhad Samji",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqn10hDTAqF8h5Cm9_Z716ViBvTspD9uDsJg44j5AuHBY8FUwGB-0OQDXcAKI08cJnjU&usqp=CAU"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Salman Khan",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Salman_Khan_in_2023_%281%29_%28cropped%29.jpg/480px-Salman_Khan_in_2023_%281%29_%28cropped%29.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Pooja Hegde",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Pooja_Hegde_at_Beast_Telugu_press_meet.jpg/359px-Pooja_Hegde_at_Beast_Telugu_press_meet.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Venkatesh Daggubati",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Daggubati_Venkatesh_%28cropped%29.jpg/480px-Daggubati_Venkatesh_%28cropped%29.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 12,
+            "name": "Bholaa",
+            "country_name": "India",
+            "genre": [
+                "Action",
+                "Thriller",
+                "Adventure",
+                "Crime"
+            ],
+            "writers": [
+                "Lokesh Kanagaraj",
+                "Ankush Singh",
+                "Aamil Keeyan Khan",
+                "Sandeep Kewlani",
+                "Shridhar Dubey"
+            ],
+            "release": {
+                "date": 30,
+                "month": "March",
+                "year": 2023
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMzMzYzZiNWYtZDNlMy00YzIwLTk3YWYtYmMyZjc3NGQ5ZTk5XkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "After getting out of prison with the desire to meet his daughter, Bholaa's plans are interrupted by a well-orchestrated drug bust.",
+            "movie_language": "Hindi",
+            "director": [
+                {
+                    "name": "Ajay Devgn",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ajay_Devgn_at_the_launch_of_MTV_Super_Fight_League.jpg/343px-Ajay_Devgn_at_the_launch_of_MTV_Super_Fight_League.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Ajay Devgn",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ajay_Devgn_at_the_launch_of_MTV_Super_Fight_League.jpg/343px-Ajay_Devgn_at_the_launch_of_MTV_Super_Fight_League.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Tabu",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Tabu_in_2024.jpg/359px-Tabu_in_2024.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Sanjay Mishra",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Sanjay_Mishra_Guthlee-Ladoo_%28cropped%29.jpg"
+                },
+                {
+                    "name": "Deepak Dobriyal",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Deepak_Dobriyal_in_2013.jpg"
+                },
+                {
+                    "name": "Gajraj Rao",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Gajraj_Rao_in_February_2020.jpg"
+                },
+                {
+                    "name": "Vineet Kumar",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Vineet_Kumar_2022.jpg/270px-Vineet_Kumar_2022.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 13,
+            "name": "Stree 2: Sarkate Ka Aatank",
+            "country_name": "India",
+            "genre": [
+                "Comedy",
+                "Horror"
+            ],
+            "writers": [
+                "Niren Bhatt",
+                "Krishna D.K.",
+                "Raj Nidimoru"
+            ],
+            "release": {
+                "date": 28,
+                "month": "April",
+                "year": 2023
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTA1NmUxYzItZmVmNy00YmQxLTk4Y2UtZjVkMWUwMWQ5N2IxXkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "After the events of Stree, the town of Chanderi is being haunted again. This time, women are mysteriously abducted by a terrifying headless entity. Once again, it's up to Vicky and his friends to save their town and loved ones.",
+            "movie_language": "Tamil",
+            "director": [
+                {
+                    "name": "Amar Kaushik",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/The_Director_Amar_Khaushik_of_the_film_AABA%2C_at_the_Presentation%2C_during_the_48th_International_Film_Festival_of_India_%28IFFI-2017%29%2C_in_Panaji%2C_Goa_on_November_27%2C_2017.jpg/480px-thumbnail.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Rajkummar Rao",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Actor_Rajkummar_Rao.jpg/320px-Actor_Rajkummar_Rao.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Shraddha Kapoor",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Shraddha_Kapoor_promoting_Street_Dancer_3D.jpg/326px-Shraddha_Kapoor_promoting_Street_Dancer_3D.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Pankaj Tripathi",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Pankaj_Tripathi_World_Premiere_Newton_Zoopalast_Berlinale_2017_06.jpg/320px-Pankaj_Tripathi_World_Premiere_Newton_Zoopalast_Berlinale_2017_06.jpg"
+                },
+                {
+                    "name": "Abhishek Banerjee",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqn10hDTAqF8h5Cm9_Z716ViBvTspD9uDsJg44j5AuHBY8FUwGB-0OQDXcAKI08cJnjU&usqp=CAU"
+                },
+                {
+                    "name": "Aparshakti Khurana",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Aparshakti-Khurana.jpg/390px-Aparshakti-Khurana.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 14,
+            "name": "Murder Mubarak",
+            "country_name": "India",
+            "genre": [
+                "Comedy",
+                "Mystery",
+                "Romance"
+            ],
+            "writers": [
+                "Anuja Chauhan",
+                "Gazal Dhaliwal",
+                "Suprotim Sengupta"
+            ],
+            "release": {
+                "date": 15,
+                "month": "March",
+                "year": 2024
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BZmVmZGVmYmYtNTIwOC00NjY0LWE3MWItYTRmNTQxZjU2OTA1XkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "During a murder investigation, a non-traditional police officer turns a spotlight on an array of suspects. He steps into their world as an outsider, only to find there is so much more than what meets the eye.",
+            "movie_language": "Hindi",
+            "director": [
+                {
+                    "name": "Homi Adajania",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Homi_Adajania_-_Director.jpg/319px-Homi_Adajania_-_Director.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Pankaj Tripathi",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Pankaj_Tripathi_World_Premiere_Newton_Zoopalast_Berlinale_2017_06.jpg/320px-Pankaj_Tripathi_World_Premiere_Newton_Zoopalast_Berlinale_2017_06.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Karisma Kapoor",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Karisma_Kapoor_snapped_at_Rotary_Club_of_Bombay_West_%286%29_%28cropped%29.jpg"
+                },
+                {
+                    "name": "Sara Ali Khan",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sara_Ali_Khan_snapped_promoting_Zara_Hatke_Zara_Bach_Ke_on_the_sets_of_The_Kapil_Sharma_Show_%288%29_%28cropped%29.jpg/347px-Sara_Ali_Khan_snapped_promoting_Zara_Hatke_Zara_Bach_Ke_on_the_sets_of_The_Kapil_Sharma_Show_%288%29_%28cropped%29.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Vijay Varma",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Vijay_Varma_snapped_at_the_trailer_launch_of_his_film_Jaane_Jaan_%28cropped%29.jpg"
+                },
+                {
+                    "name": "Dimple Kapadia",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/DimpleKapadiaPichvai_%28cropped%29.png"
+                },
+                {
+                    "name": "Sanjay Kapoor",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Sanjay_Kapoor_at_the_special_screening_of_%27Neerja%27.jpg/320px-Sanjay_Kapoor_at_the_special_screening_of_%27Neerja%27.jpg"
+                },
+                {
+                    "name": "Tisca Chopra",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Tisca_Chopra_graces_the_screening_of_Sonata.jpg/341px-Tisca_Chopra_graces_the_screening_of_Sonata.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 15,
+            "name": "Samrat Prithviraj",
+            "country_name": "India",
+            "genre": [
+                "Action",
+                "Drama",
+                "History"
+            ],
+            "writers": [
+                "Dr. Chandraprakash Dwivedi"
+            ],
+            "release": {
+                "date": 3,
+                "month": "June",
+                "year": 2022
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BZGQ3OTA3YzQtZDhjMC00MjIxLTg5ZDQtOTFjYTU4MDA0ZmI5XkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "A magnum opus recounting the glorious tale of one of India's bravest emperors- Samrat Prithviraj Chauhan. Inspired from the epic poem Prithviraj Raaso and other folklores.",
+            "movie_language": "Hindi",
+            "director": [
+                {
+                    "name": "Dr. Chandraprakash Dwivedi",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Cine-Bahastalab-2012_Dr._Chandra_Prakash_Dwivedi_%28Film_%26_TV_Director%2BActor%29.jpg/480px-Cine-Bahastalab-2012_Dr._Chandra_Prakash_Dwivedi_%28Film_%26_TV_Director%2BActor%29.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Akshay Kumar",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Akshay_Kumar.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Manushi Chhillar",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Manushi_Chhillar_attends_a_press_meet_for_the_Gem_and_Jewellery_Export_Promotion_Council_of_India_%28GJEPC%29_in_2023_%28cropped%29.jpg/427px-Manushi_Chhillar_attends_a_press_meet_for_the_Gem_and_Jewellery_Export_Promotion_Council_of_India_%28GJEPC%29_in_2023_%28cropped%29.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Sanjay Dutt",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Sanjay_Dutt_at_Mumbai_Airport%2C_2018_%28cropped%29.jpg"
+                },
+                {
+                    "name": "Sonu Sood",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Sonu_Sood.jpg/288px-Sonu_Sood.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 16,
+            "name": "Bad Newz",
+            "country_name": "India",
+            "genre": [
+                "Comedy",
+                "Romance"
+            ],
+            "writers": [
+                "Tarun Dudeja",
+                "Ishita Moitra"
+            ],
+            "release": {
+                "date": 19,
+                "month": "July",
+                "year": 2024
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BM2QxNGM0OTItMjE1MS00ZjRiLTg3ZTItMTg1NGMyNmRiMjc4XkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "A crazy laugh riot which will show the outcomes of two sophisticated Punjabi men and a Punjabi girl. One of the men has a one night stand with the girl and somehow, craziness happens when she is pregnant unexpectedly.",
+            "movie_language": "Hindi",
+            "director": [
+                {
+                    "name": "Anand Tiwari",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Anand_tiwari.jpg/318px-Anand_tiwari.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Vicky Kaushal",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Vicky_Kaushal_snapped_promoting_Zara_Hatke_Zara_Bach_Ke_on_the_sets_of_The_Kapil_Sharma_Show_%28cropped%29.jpg"
+                },
+                {
+                    "name": "Ammy Virk",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Ammy_Virk_2019.jpg/384px-Ammy_Virk_2019.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Triptii Dimri",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Triptii_Dimri_snapped_outside_Leap_Club_in_Santacruz_%28cropped%29.jpg/332px-Triptii_Dimri_snapped_outside_Leap_Club_in_Santacruz_%28cropped%29.jpg"
+                }
+            ],
+            "other_characters": [],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 17,
+            "name": "Singham Again",
+            "country_name": "India",
+            "genre": [
+                "Action",
+                "Drama"
+            ],
+            "writers": [
+                "Vidhi Ghodgaonkar",
+                "Abhijeet Khuman",
+                "Anusha Nandakumar"
+            ],
+            "release": {
+                "date": 1,
+                "month": "November",
+                "year": 2024
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjQzZDExZDEtYjAxYy00ZGVhLWE4YWItNTVkZjA5ZjVjZWM3XkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "A new chase is coming - with reference to the epic Ramayana, Singham and his team face an ambiguous villain in order to save his wife.",
+            "movie_language": "Hindi",
+            "director": [
+                {
+                    "name": "Rohit Shetty",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Rohit_Shetty_snapped_during_Simmba_interviews_at_JW_Marriott_in_Juhu.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Ajay Devgn",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ajay_Devgn_at_the_launch_of_MTV_Super_Fight_League.jpg/343px-Ajay_Devgn_at_the_launch_of_MTV_Super_Fight_League.jpg"
+                },
+                {
+                    "name": "Akshay Kumar",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Akshay_Kumar.jpg"
+                },
+                {
+                    "name": "Ranveer Singh",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Ranveer_Singh_in_2023_%281%29_%28cropped%29.jpg"
+                },
+                {
+                    "name": "Tiger Shroff",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Tiger_Shroff_in_2019.jpg/340px-Tiger_Shroff_in_2019.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Kareena Kapoor Khan",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Kareena_Kapoor_Khan_in_2023_%281%29_%28cropped%29.jpg"
+                },
+                {
+                    "name": "Deepika Padukone",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Deepika_Padukone_Cannes_2018_%28cropped%29.jpg/359px-Deepika_Padukone_Cannes_2018_%28cropped%29.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Arjun Kapoor",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Arjun_Kapoor_at_film_promotions_of_Mubarakan.jpg/319px-Arjun_Kapoor_at_film_promotions_of_Mubarakan.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 18,
+            "name": "Munjya",
+            "country_name": "India",
+            "genre": [
+                "Comedy",
+                "Horror"
+            ],
+            "writers": [
+                "Niren Bhatt",
+                "Yogesh Chandekar",
+                "Tushar Ajgaonkar"
+            ],
+            "release": {
+                "date": 23,
+                "month": "September",
+                "year": 2022
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BMGY4OTA3OWEtZjYxYy00YTBlLWJmYzEtNzM0NDliYzA5OGYwXkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "A young man's visit to his native village unveils a family secret and a vengeful spirit, the Munjya, who wants to get married. Now the young man must fight to protect himself and his love from Munjya's clutches.",
+            "movie_language": "Hindi",
+            "director": [
+                {
+                    "name": "Aditya Sarpotdar",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqn10hDTAqF8h5Cm9_Z716ViBvTspD9uDsJg44j5AuHBY8FUwGB-0OQDXcAKI08cJnjU&usqp=CAU"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Abhay Verma",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Abhay_Verma_in_2024_%28cropped%29.jpg/415px-Abhay_Verma_in_2024_%28cropped%29.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Sharvari Wagh",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Sharvari_Wagh_snapped_promoting_Munjya_at_Maddock_Films_office_%28cropped%29.jpg/449px-Sharvari_Wagh_snapped_promoting_Munjya_at_Maddock_Films_office_%28cropped%29.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Sathyaraj",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Sathiyaraj.JPG/359px-Sathiyaraj.JPG"
+                },
+                {
+                    "name": "Mona Singh",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Mona_Singh_at_the_premiere_of_The_Archies_%28cropped%29.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 19,
+            "name": "The Greatest of All Time",
+            "country_name": "India",
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "writers": [
+                "M Prasad Babu",
+                "K. Chandru",
+                "Ezhilarasu Gunasekaran"
+            ],
+            "release": {
+                "date": 2,
+                "month": "October",
+                "year": 2024
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BZTc5ZDEwZmUtOTJlOC00ZmFkLWJjMTEtYWI4YjE3N2EwYTE2XkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "Gandhi is a hostage negotiator, field agent, and spy working for the Special Anti-Terrorist Squad (SATS). After years of service, he is called back for a critical mission that sets him on a dangerous collision course with his own ...",
+            "movie_language": "Hindi",
+            "director": [
+                {
+                    "name": "Venkat Prabhu",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Venkat_Prabhu_at_Damaal_Dumeel_Audio_Launch.jpg/320px-Venkat_Prabhu_at_Damaal_Dumeel_Audio_Launch.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Joseph Vijay",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Vijay_at_Protest_of_the_Nadigar_Sangam.jpg/384px-Vijay_at_Protest_of_the_Nadigar_Sangam.jpg"
+                }
+            ],
+            "actress": [],
+            "other_characters": [
+                {
+                    "name": "Prashanth",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Prashanth_at_Saahasam_Audio_Launch.jpg/320px-Prashanth_at_Saahasam_Audio_Launch.jpg"
+                },
+                {
+                    "name": "Prabhu Deva",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Promotional_rickshaw_race_for_%27Rowdy_Rathore%27_%2810%29.jpg/318px-Promotional_rickshaw_race_for_%27Rowdy_Rathore%27_%2810%29.jpg"
+                },
+                {
+                    "name": "Mohan",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Mohan_at_IIFA_Utsavam_Chennai_Press_Meet.jpg/320px-Mohan_at_IIFA_Utsavam_Chennai_Press_Meet.jpg"
+                },
+                {
+                    "name": "Jayaram",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Jayaram_in_2024.jpg/320px-Jayaram_in_2024.jpg"
+                },
+                {
+                    "name": "Ajmal Ameer",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ajmal_Ameer_at_Launch_of_Provoke_Lifestyle_Magazine.jpg/320px-Ajmal_Ameer_at_Launch_of_Provoke_Lifestyle_Magazine.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 20,
+            "name": "Fighter",
+            "country_name": "India",
+            "genre": [
+                "Action",
+                "Drama"
+            ],
+            "writers": [
+                "Siddharth Anand",
+                "Ramon Chibb",
+                "Abbas Dalal"
+            ],
+            "release": {
+                "date": 25,
+                "month": "January",
+                "year": 2024
+            },
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BYmJiYzZhOTktNGIzNy00YjljLWI3ZDgtZGU2YWMzNGQ1YjQ5XkEyXkFqcGc@._V1_SX300.jpg",
+            "description": "A reckless yet brilliant squadron leader and his team of elite fighter pilots face mortal dangers and inner demons as they unite for a deadly mission.",
+            "movie_language": "Hindi",
+            "director": [
+                {
+                    "name": "Siddharth Anand",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sid_Anand_on_set.jpg/320px-Sid_Anand_on_set.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Hrithik Roshan",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Hrithik_at_Rado_launch.jpg/342px-Hrithik_at_Rado_launch.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Deepika Padukone",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Deepika_Padukone_Cannes_2018_%28cropped%29.jpg/359px-Deepika_Padukone_Cannes_2018_%28cropped%29.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Anil Kapoor",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Anil_Kapoor_snapped_at_Race_3_interviews_at_Sun_N_Sand_hotel_in_Juhu.jpg/480px-Anil_Kapoor_snapped_at_Race_3_interviews_at_Sun_N_Sand_hotel_in_Juhu.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        }
+    ],
+    "slider": [
+        {
+            "_id": 1,
+            "name": "Pushpa 2: The Rule",
+            "country_name": "India",
+            "genre": [
+                "Action",
+                "Drama"
+            ],
+            "writers": [
+                "Sukumar",
+                "Srikanth Vissa"
+            ],
+            "release": {
+                "date": 5,
+                "month": "December",
+                "year": 2024
+            },
+            "thumbnail": "https://4kwallpapers.com/images/walls/thumbs_3t/19900.jpg",
+            "description": "A consignment of red sandalwood arrives at the Yokohama port in Japan, where workers are shocked to find Pushpa hidden inside one of the containers. He attacks them, demanding payment for the load but is shot and falls into the sea, triggering a flashback.",
+            "movie_language": "Telugu",
+            "director": [
+                {
+                    "name": "Sukumar",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Sukku-one.jpg/453px-Sukku-one.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Allu Arjun",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Allu_Arjun_at_Pushpa_2_The_Rule_meet.jpg/409px-Allu_Arjun_at_Pushpa_2_The_Rule_meet.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Rashmika Mandanna",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Rashmika_Mandanna_spotted_during_Goodbye_promotions_at_JW_Marriott.jpg/369px-Rashmika_Mandanna_spotted_during_Goodbye_promotions_at_JW_Marriott.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Fahadh Faasil",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Fahadh_Faasil_2019.jpg/373px-Fahadh_Faasil_2019.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 2,
+            "name": "Mufasa: The Lion King",
+            "country_name": "USA",
+            "genre": [
+                "Animation",
+                "Adventure",
+                "Drama"
+            ],
+            "writers": [
+                "Linda Woolverton",
+                "Irene Mecchi",
+                "Jonathan Roberts"
+            ],
+            "release": {
+                "date": 20,
+                "month": "December",
+                "year": 2024
+            },
+            "thumbnail": "https://images.hdqwalls.com/download/mufasa-the-lion-king-d-box-poster-gf-3840x2160.jpg",
+            "description": "Mufasa, a cub lost and alone, meets a sympathetic lion named Taka, the heir to a royal bloodline. The chance meeting sets in motion an expansive journey of a group of misfits searching for their destiny.",
+            "movie_language": "English",
+            "director": [
+                {
+                    "name": "Barry Jenkins",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Filmmaker_Barry_Jenkins_%28cropped%29.jpg/455px-Filmmaker_Barry_Jenkins_%28cropped%29.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Aaron Pierre",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/%27MLK_X%27%2C_Kelvin_Harrison_e_Aaron_Pierre_%C2%ABUna_serie_per_capire_la_storia_ancora_pi%C3%B9_a_fondo%C2%BB_%285m30s%29_%28cropped%29.png/359px-%27MLK_X%27%2C_Kelvin_Harrison_e_Aaron_Pierre_%C2%ABUna_serie_per_capire_la_storia_ancora_pi%C3%B9_a_fondo%C2%BB_%285m30s%29_%28cropped%29.png"
+                },
+                {
+                    "name": "Kelvin Harrison Jr.",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Kelvin_Harrison_Jr._during_an_interview%2C_December_2021.png/331px-Kelvin_Harrison_Jr._during_an_interview%2C_December_2021.png"
+                },
+                {
+                    "name": "Seth Rogen",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Seth_Rogen_at_Collision_2019_-_SM0_1823_%2847106936404%29_%28cropped%29.jpg/387px-Seth_Rogen_at_Collision_2019_-_SM0_1823_%2847106936404%29_%28cropped%29.jpg"
+                },
+                {
+                    "name": "Billy Eichner",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Billy_Eichner_May_2014.jpg/319px-Billy_Eichner_May_2014.jpg"
+                },
+                {
+                    "name": "Donald Glover",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Donald_Glover_TIFF_2015.jpg/339px-Donald_Glover_TIFF_2015.jpg"
+                },
+                {
+                    "name": "Mads Mikkelsen",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Stuttgart_2022_-Comic_Con_Germany-Mads_Mikkelsen-_by-RaBoe_007_%28cropped%29.jpg/319px-Stuttgart_2022_-Comic_Con_Germany-Mads_Mikkelsen-_by-RaBoe_007_%28cropped%29.jpg"
+                },
+                {
+                    "name": "Lennie James",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Lennie_James_%2848403597296%29_%28cropped%29.jpg/359px-Lennie_James_%2848403597296%29_%28cropped%29.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Tiffany Boone",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqn10hDTAqF8h5Cm9_Z716ViBvTspD9uDsJg44j5AuHBY8FUwGB-0OQDXcAKI08cJnjU&usqp=CAU"
+                },
+                {
+                    "name": "Thandiwe Newton",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Thandie_Newton_by_Gage_Skidmore_2.jpg/378px-Thandie_Newton_by_Gage_Skidmore_2.jpg"
+                },
+                {
+                    "name": "Anika Noni Rose",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Anika_Noni_Rose_Photo_Op_GalaxyCon_Raleigh_2024_%28cropped%29.jpg/359px-Anika_Noni_Rose_Photo_Op_GalaxyCon_Raleigh_2024_%28cropped%29.jpg"
+                },
+                {
+                    "name": "Blue Ivy Carter",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Blue_Ivy_Carter_-_Beyonc%C3%A9_Renaissance_World_Tour_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2862_of_118%29_%2852945302082%29_%28cropped%29.jpg/325px-Blue_Ivy_Carter_-_Beyonc%C3%A9_Renaissance_World_Tour_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2862_of_118%29_%2852945302082%29_%28cropped%29.jpg"
+                },
+                {
+                    "name": "Beyoncé Knowles-Carter",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%285_of_118%29_%2852945900006%29_%28cropped_2%29.jpg/359px-Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%285_of_118%29_%2852945900006%29_%28cropped_2%29.jpg"
+                }
+            ],
+            "other_characters": [],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 3,
+            "name": "Kalki 2898 AD",
+            "country_name": "India",
+            "genre": [
+                "Action",
+                "Adventure",
+                "Drama"
+            ],
+            "writers": [
+                "Nag Ashwin"
+            ],
+            "release": {
+                "date": 27,
+                "month": "June",
+                "year": 2024
+            },
+            "thumbnail": "https://4kwallpapers.com/images/walls/thumbs_3t/17174.jpeg",
+            "description": "The future of those in the dystopian city of Kasi is altered when the destined arrival of Lord Vishnu's final avatar launches a war against darkness.",
+            "movie_language": "Telugu",
+            "director": [
+                {
+                    "name": "Nag Ashwin",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Nag_Ashwin_by_Gage_Skidmore.jpg/381px-Nag_Ashwin_by_Gage_Skidmore.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Prabhas",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Prabhas_by_Gage_Skidmore.jpg/380px-Prabhas_by_Gage_Skidmore.jpg"
+                },
+                {
+                    "name": "Amitabh Bachchan",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Indian_actor_Amitabh_Bachchan.jpg/345px-Indian_actor_Amitabh_Bachchan.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Deepika Padukone",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Deepika_Padukone_Cannes_2018_%28cropped%29.jpg/359px-Deepika_Padukone_Cannes_2018_%28cropped%29.jpg"
+                },
+                {
+                    "name": "Disha Patani",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Photos-Disha-Patani-snapped-at-Myntra-event_%28cropped%29.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Kamal Haasan",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kamal_Haasan_by_Gage_Skidmore.jpg/348px-Kamal_Haasan_by_Gage_Skidmore.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 4,
+            "name": "Red One",
+            "country_name": "USA",
+            "genre": [
+                "Action",
+                "Adventure",
+                "Comedy"
+            ],
+            "writers": [
+                "Chris Morgan",
+                "Hiram Garcia"
+            ],
+            "release": {
+                "date": 15,
+                "month": "November",
+                "year": 2024
+            },
+            "thumbnail": "https://images.hdqwalls.com/download/red-one-2024-5y-3840x2160.jpg",
+            "description": "After Santa Claus is kidnapped, the North Pole's Head of Security must team up with the world's most infamous bounty hunter in a globe-trotting, action-packed mission to save Christmas.",
+            "movie_language": "English",
+            "director": [
+                {
+                    "name": "Jake Kasdan",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Jake_Kasdan.jpg/412px-Jake_Kasdan.jpg"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Dwayne Johnson",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Dwayne_%22The_Rock%22_Johnson_Visits_the_Pentagon_%2841%29_%28cropped%29.jpg/385px-Dwayne_%22The_Rock%22_Johnson_Visits_the_Pentagon_%2841%29_%28cropped%29.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Lucy Liu",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Lucy_Liu_Cannes_2008.jpg/382px-Lucy_Liu_Cannes_2008.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Chris Evans",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/ChrisEvans2023.jpg/320px-ChrisEvans2023.jpg"
+                },
+                {
+                    "name": "J. K. Simmons",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/JK_Simmons_2009.jpg/326px-JK_Simmons_2009.jpg"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        },
+        {
+            "_id": 5,
+            "name": "Venom: The Last Dance",
+            "country_name": "USA",
+            "genre": [
+                "Action",
+                "Adventure",
+                "Sci-Fi"
+            ],
+            "writers": [
+                "Kelly Marcel",
+                "Tom Hardy",
+                "Todd McFarlane"
+            ],
+            "release": {
+                "date": 25,
+                "month": "October",
+                "year": 2024
+            },
+            "thumbnail": "https://images.hdqwalls.com/download/venom-the-last-dance-2024-movie-vk-3840x2160.jpg",
+            "description": "Eddie Brock and Venom must make a devastating decision as they're pursued by a mysterious military man and alien monsters from Venom's home world.",
+            "movie_language": "English",
+            "director": [
+                {
+                    "name": "Kelly Marcel",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqn10hDTAqF8h5Cm9_Z716ViBvTspD9uDsJg44j5AuHBY8FUwGB-0OQDXcAKI08cJnjU&usqp=CAU"
+                }
+            ],
+            "actor": [
+                {
+                    "name": "Tom Hardy",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Tom_Hardy_by_Gage_Skidmore.jpg/355px-Tom_Hardy_by_Gage_Skidmore.jpg"
+                },
+                {
+                    "name": "Chiwetel Ejiofor",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Chiwetel_Ejiofor_at_the_2024_Toronto_International_Film_Festival_%28cropped%29.jpg/339px-Chiwetel_Ejiofor_at_the_2024_Toronto_International_Film_Festival_%28cropped%29.jpg"
+                }
+            ],
+            "actress": [
+                {
+                    "name": "Juno Temple",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Juno_Temple_%288463784497%29_%28cropped%29.jpg"
+                }
+            ],
+            "other_characters": [
+                {
+                    "name": "Rhys Ifans",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Rhys_Ifans_2011_cropped_%28cropped%29.jpg/342px-Rhys_Ifans_2011_cropped_%28cropped%29.jpg"
+                },
+                {
+                    "name": "Alanna Ubach",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Alanna_050413_0024.jpg/373px-Alanna_050413_0024.jpg"
+                },
+                {
+                    "name": "Stephen Graham",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Stephen_Graham_%26_Mickey_DeHara_%28crop%29.png"
+                },
+                {
+                    "name": "Peggy Lu",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqn10hDTAqF8h5Cm9_Z716ViBvTspD9uDsJg44j5AuHBY8FUwGB-0OQDXcAKI08cJnjU&usqp=CAU"
+                }
+            ],
+            "ticket_price": 200,
+            "released": true
+        }
+    ]
+}

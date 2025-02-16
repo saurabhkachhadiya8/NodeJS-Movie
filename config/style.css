@@ -1,0 +1,72 @@
+html{
+    scrollbar-width: none;
+}
+body,body p{
+    font-family: 'Exo', serif !important;
+}
+.navbar a{
+    color: #fff;
+    font-size: 23px;
+    margin: 0 10px;
+}
+.navbar a:hover{
+    color: #fff;
+}
+.navbar .navbar-brand:hover{
+    color: red;
+}
+.navbar .navbar-brand:hover span{
+    color: #fff;
+}
+.navbar form button{
+    border: 2px solid red;
+    color: #fff;
+    background-color: red;
+    font-size: larger;
+}
+.navbar form button:hover{
+    color: #fff;
+    background-color: rgba(255, 0, 0, 0.925);
+}
+.navbar form .form-control{
+    width: 200% !important;
+    font-size: larger;
+    border: 2px solid red;
+    color: #fff;
+    background-color: transparent;
+    padding: 10px 15px !important;
+}
+.navbar form .form-control::placeholder{
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.hero-slider .slide-inner::after{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(256deg, rgba(255, 0, 0, 0) 0%, #F00 100%);
+    z-index: -1;
+    transition: all 0.3s;
+}
+.hero-slider .slide-inner:hover::after{
+    width: 100%;
+}
+.hero-slider .slider-content{
+    position: absolute;
+    width: 50%;
+    left: -50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+.hero-slider .slide-inner:hover .slider-content{
+    left: 2%;
+    opacity: 1;
+    visibility: visible;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="/bootstrap.min.css">
+    <!-- icon  -->
+    <link rel="stylesheet" href="/all.min.css">
+    <!-- slider  -->
+    <link rel="stylesheet" href="/slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+    <!-- font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="/style.css">
+
+    <style>
+        * {
+            outline: none;
+        }
+
+        label {
+            padding-top: 10px;
+            margin-bottom: 3px !important;
+        }
+        .add input,textarea{
+            background-color: #ffffff11 !important;
+            color: #fff !important;
+            padding: 10px 15px !important;
+            font-size: large !important;
+        }
+        .add input::placeholder,textarea::placeholder{
+            color: #fff !important;
+        }
+        input[type="submit"]:hover{
+            background-color: #fff !important;
+            color: #000 !important;
+            font-weight: 600;
+        }
+        .view-tickets::after{
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 200%;
+            left: 0;
+            bottom: 0;
+            background: radial-gradient(circle, rgba(255, 0, 0, 0) 5%, #f00 100%);
+            opacity: 0;
+            visibility: hidden;
+            z-index: 1;
+            transition: all 0.5s;
+        }
+        .view-tickets:hover::after{
+            height: 200%;
+            opacity: 1;
+            visibility: visible;
+        }
+        .view-tickets img{
+            transition: all 0.3s;
+        }
+        .view-tickets:hover img{
+            transform: scale(1.1);
+        }
+        .view-tickets .view-content{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            bottom: 50%;
+            padding: 45px;
+            z-index: 2;
+            transition: all 0.5s;
+            opacity: 0;
+            visibility: hidden;
+        }
+        .view-tickets:hover .view-content{
+            opacity: 1;
+            visibility: visible;
+            bottom: 0;
+        }
+        .btns a{
+            width: 40%;
+        }
+    </style>
+</head>
+
+<body style="background: url('http://ott.aipdfquery.com/assets/img/dark-gradient-bg.jpg') no-repeat center;background-size: cover;background-blend-mode: darken;background-color: #000000a2;color: #fff;">
+    <%- include('navbar') %>
+
+    <section class="py-5 fs-4">
+        <div class="container-fluid px-5 d-flex" style="flex-wrap: wrap;">
+            <% tickets.map((data,i) => { %>
+                <% const {name,price,image,description,_id} = data; %>
+                <div class="col-3 view-tickets p-4 position-relative overflow-hidden" style="height: 590px;">
+                    <img src="<%= image %>" alt="<%= image %>" width="100%" height="100%" style="object-fit: cover;">
+                    <div class="view-content d-flex flex-column justify-content-end">
+                        <h2><%= name %></h2>
+                        <p>₹ <%= price %></p>
+                        <p class="fs-5"><%= description %></p>
+                        <div class="btns">
+                            <a href="/editticket?editId=<%= _id %>" class="btn btn-outline-danger fs-4 me-2">Edit</a>
+                            <a href="/deleteticket?deleteId=<%= _id %>" class="btn btn-outline-danger fs-4 ms-2">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </section>
+
+    <script src="/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
